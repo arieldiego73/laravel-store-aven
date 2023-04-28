@@ -1,9 +1,8 @@
 <section class="relative h-72 bg-aven flex flex-col justify-center align-center text-center space-y-4">
-    <div class="absolute top-0 left-0 w-full h-full opacity-10 bg-no-repeat bg-center"
-        style="background-image: url('images/laravel-logo.png')"></div>
+    <div class="absolute top-0 left-0 w-full h-full opacity-70 bg-no-repeat bg-center"
+        style="background-image: url('{{asset('images/aven.png')}}')"></div>
 
     <div class="z-10">
-        
         @auth
             <div class="font-bold uppercase text-xl text-orange-300">
                 Welcome, {{ auth()->user()->name }}!
