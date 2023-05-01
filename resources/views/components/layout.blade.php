@@ -19,11 +19,11 @@
     <script src="https://kit.fontawesome.com/107ab030c1.js" crossorigin="anonymous" defer></script>
 
     {{-- ANIMATE CSS --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
     {{-- ALPINE --}}
-    {{-- <script src="//unpkg.com/alpinejs" defer></script> --}}
+    <script src="//unpkg.com/alpinejs" defer></script>
 
     {{-- TAILWIND --}}
     <script src="https://cdn.tailwindcss.com"></script>

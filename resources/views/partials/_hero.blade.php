@@ -1,19 +1,19 @@
 <section class="relative h-72 bg-aven flex flex-col justify-center align-center text-center space-y-4">
     <div class="absolute top-0 left-0 w-full h-full opacity-70 bg-no-repeat bg-center"
-        style="background-image: url('{{asset('images/aven.png')}}')"></div>
+        style="background-image: url('{{ asset('images/aven.png') }}')"></div>
 
     <div class="z-10">
-        @auth
-            <div class="font-bold uppercase text-xl text-orange-300">
-                Welcome, {{ auth()->user()->name }}!
-            </div>
-        @endauth
-
         <h1 class="text-6xl font-bold uppercase text-white mt-4 animate__animated animate__jello">
             AVEN
         </h1>
-        <p class="text-xl text-gray-200 font-bold my-4">
-            Find or post Laravel jobs & projects
+
+        <p class="text-xl text-orange-300 font-bold my-4">
+            @auth
+                <span class="font-bold uppercase text-xl text-white">
+                    Welcome, {{ auth()->user()->name }}!
+                </span> <br>
+            @endauth
+            Enjoy shopping!
         </p>
         @auth
         @else

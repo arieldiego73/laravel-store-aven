@@ -37,7 +37,7 @@
                         <a class="" href="">
                             <div
                                 class="absolute -top-1 right-0 z-10 bg-yellow-400 text-xs font-bold px-1 py-0.5 rounded-sm">
-                                12</div>
+                                {{ $cart->count() }}</div>
                             <svg class="h-9 lg:h-10 p-2 text-gray-500" aria-hidden="true" focusable="false"
                                 data-prefix="far" data-icon="shopping-cart" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
