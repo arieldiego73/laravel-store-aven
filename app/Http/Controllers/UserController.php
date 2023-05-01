@@ -57,6 +57,6 @@ class UserController extends Controller
             return redirect('/')->with('message', 'You are logged in!');
         }
 
-        return back()->withErrors(['email' => 'Invalid credetentials'])->onlyInput('email');
+        return back()->withErrors(['email' => 'Invalid credentials'])->onlyInput('email');
     }
 }
